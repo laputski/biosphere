@@ -1,9 +1,9 @@
-package biosphere.web.service;
+package biosphere.web.laputski.service;
 
-import biosphere.web.domain.Statistics;
-import biosphere.web.dto.CommonStatistics;
-import biosphere.web.dto.PopulationStatistics;
-import biosphere.web.repository.StatisticsRepository;
+import biosphere.web.laputski.domain.Statistics;
+import biosphere.web.laputski.dto.CommonStatistics;
+import biosphere.web.laputski.dto.PopulationStatistics;
+import biosphere.web.laputski.repository.StatisticsRepository;
 import com.google.common.base.Function;
 import com.google.common.collect.Lists;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package biosphere.web.domain;
+package biosphere.web.laputski.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

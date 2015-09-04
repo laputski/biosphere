@@ -1,7 +1,7 @@
-package biosphere.web.service;
+package biosphere.web.laputski.service;
 
-import biosphere.web.dto.CommonStatistics;
-import biosphere.web.dto.PopulationStatistics;
+import biosphere.web.laputski.dto.CommonStatistics;
+import biosphere.web.laputski.dto.PopulationStatistics;
 
 import java.util.List;
 

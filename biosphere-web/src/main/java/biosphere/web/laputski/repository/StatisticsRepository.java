@@ -1,6 +1,6 @@
-package biosphere.web.repository;
+package biosphere.web.laputski.repository;
 
-import biosphere.web.domain.Statistics;
+import biosphere.web.laputski.domain.Statistics;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 

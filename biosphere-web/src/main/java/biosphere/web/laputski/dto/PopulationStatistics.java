@@ -1,4 +1,4 @@
-package biosphere.web.dto;
+package biosphere.web.laputski.dto;
 
 public class PopulationStatistics {
 

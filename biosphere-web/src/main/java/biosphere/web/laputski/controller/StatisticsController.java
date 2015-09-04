@@ -1,8 +1,8 @@
-package biosphere.web.controller;
+package biosphere.web.laputski.controller;
 
-import biosphere.web.dto.CommonStatistics;
-import biosphere.web.dto.PopulationStatistics;
-import biosphere.web.service.StatisticsService;
+import biosphere.web.laputski.dto.CommonStatistics;
+import biosphere.web.laputski.dto.PopulationStatistics;
+import biosphere.web.laputski.service.StatisticsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.PathVariable;
