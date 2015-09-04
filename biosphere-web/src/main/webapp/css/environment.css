@@ -1,0 +1,22 @@
+#environment {
+    margin: 100px 30px;
+}
+
+ellipse {
+    fill: #000;
+}
+
+path {
+    fill: none;
+    stroke: #000;
+    stroke-linecap: round;
+}
+
+.mid {
+    stroke-width: 4px;
+}
+
+.tail {
+    stroke-width: 2px;
+}
+

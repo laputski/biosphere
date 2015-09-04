@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="30 seconds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="logback.xsd">
+
+    <property resource="logback-variables.properties"/>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${standard.pattern}</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="APP"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${log.file}</file>
+        <encoder>
+            <pattern>${standard.pattern}</pattern>
+        </encoder>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>${log.file}-%d{yyyy-MM-dd}.log.zip</fileNamePattern>
+
+            <!-- keep 7 days' worth of history -->
+            <maxHistory>${log.maxHistory:-7}</maxHistory>
+        </rollingPolicy>
+
+    </appender>
+
+    <appender name="FRAMEWORK" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${log.dir}/framework.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily -->
+            <fileNamePattern>${log.dir}/framework-%d{yyyy-MM-dd}.%i.log.zip</fileNamePattern>
+            <maxHistory>1</maxHistory>
+            <timeBasedFileNamingAndTriggeringPolicy
+                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <!-- or whenever the file size reaches 5MB -->
+                <maxFileSize>5MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${standard.pattern}</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="biosphere.web" level="INFO"/>
+
+    <logger name="org.springframework" level="ERROR" additivity="false">
+        <appender-ref ref="FRAMEWORK"/>
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <!--
+    <logger name="org.springframework.transaction.support" level="DEBUG" />
+    <logger name="org.springframework.web" level="DEBUG" />
+    -->
+    <root level="${log.level:-ERROR}">
+        <appender-ref ref="APP"/>
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+</configuration>
