@@ -32,4 +32,5 @@ public class StatisticsController {
     public String handleExceptions(Exception e) {
         return e.getMessage();
     }
+	
 }
