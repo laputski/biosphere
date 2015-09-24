@@ -24,7 +24,8 @@ public class StatisticsServiceImpl implements StatisticsService {
         return Lists.transform(statisticsRepository.findCommonStatistics(), new Function<Statistics, CommonStatistics>() {
             @Override
             public CommonStatistics apply(Statistics statistics) {
-                return new CommonStatistics(statistics.getPopulationId(), statistics.getPopulationName(), statistics.getAverageFitness());
+                return new CommonStatistics(statistics.getId(), statistics.getPopulationId(),
+                        statistics.getPopulationName(), statistics.getGenerationNumber(), statistics.getAverageFitness());
             }
         });
     }
@@ -37,5 +38,17 @@ public class StatisticsServiceImpl implements StatisticsService {
                 return new PopulationStatistics(statistics.getGenerationNumber(), statistics.getAverageFitness());
             }
         });
+    }
+
+    @Override
+    public void saveStatistics(CommonStatistics commonStatistics) {
+        Statistics statistics = new Statistics();
+        statistics.setId(commonStatistics.getId());
+        statistics.setPopulationId(commonStatistics.getPopulationId());
+        statistics.setPopulationName(commonStatistics.getPopulationName());
+        statistics.setGenerationNumber(commonStatistics.getGenerationNumber());
+        statistics.setAverageFitness(commonStatistics.getAverageFitness());
+        statistics.setIsResult(true);
+        statisticsRepository.save(statistics);
     }
 }

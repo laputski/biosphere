@@ -11,4 +11,5 @@ public interface StatisticsService {
 
     List<PopulationStatistics> findStatisticsByPopulation(Long id);
 
+    void saveStatistics(CommonStatistics commonStatistics);
 }

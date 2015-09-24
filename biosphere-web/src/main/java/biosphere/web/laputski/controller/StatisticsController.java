@@ -4,10 +4,7 @@ import biosphere.web.laputski.dto.CommonStatistics;
 import biosphere.web.laputski.dto.PopulationStatistics;
 import biosphere.web.laputski.service.StatisticsService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -28,9 +25,14 @@ public class StatisticsController {
         return statisticsService.findStatisticsByPopulation(id);
     }
 
+    @RequestMapping(method = RequestMethod.POST, value = "population")
+    public void saveStatistics(@RequestBody CommonStatistics statistics) {
+        statisticsService.saveStatistics(statistics);
+    }
+
     @ExceptionHandler(Exception.class)
     public String handleExceptions(Exception e) {
         return e.getMessage();
     }
-	
+
 }
