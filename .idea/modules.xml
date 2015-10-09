@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/biosphere.iml" filepath="$PROJECT_DIR$/.idea/biosphere.iml" />
+      <module fileurl="file://$PROJECT_DIR$/biosphere-environment/biosphere-environment.iml" filepath="$PROJECT_DIR$/biosphere-environment/biosphere-environment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/biosphere-genotype/biosphere-genotype.iml" filepath="$PROJECT_DIR$/biosphere-genotype/biosphere-genotype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/biosphere-memory/biosphere-memory.iml" filepath="$PROJECT_DIR$/biosphere-memory/biosphere-memory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/biosphere-phenotype/biosphere-phenotype.iml" filepath="$PROJECT_DIR$/biosphere-phenotype/biosphere-phenotype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/biosphere-web/biosphere-web.iml" filepath="$PROJECT_DIR$/biosphere-web/biosphere-web.iml" />
+    </modules>
+  </component>
+</project>
