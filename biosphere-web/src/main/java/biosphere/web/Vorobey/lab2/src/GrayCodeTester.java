@@ -3,7 +3,7 @@
  */
 
 public class GrayCodeTester {
-    public static void main(String[] args) {
+    public static void main_LB2_VorobeyV(String[] args) {
 
         System.out.println(factorial(5));
         System.out.println(GrayCode(14));
@@ -120,7 +120,7 @@ public class GrayCodeTester {
 }
 
 /*
-Таблица соответствия
+Table of corresponding
 0    0000    0000
 1    0001    0001
 2    0010    0011
@@ -139,11 +139,11 @@ public class GrayCodeTester {
 15   1111    1000
 
 
-1-й столбец - десятичное число
-2-й столбец - двоичное число
-3-й столбец - соответстввующий код Грея
+1-st row - decimal number
+2-nd row - binary number
+3-rd row - Gray code
  */
 
 /*
-Copyright@Воробей Влад:)
+Copyright@Vorobey Vlad:)
 */
