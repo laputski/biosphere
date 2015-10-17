@@ -1,16 +1,23 @@
 # Biosphere
 
-Test project, which implements basic genetic algorithms.
+Test project, which implements basic metaheuristic algorithms.
 
 ## Technologies Stack
 
 * JSE 8
-* AngulrJS
+* AngularJS
 * d3.js
-* Spring Framework (IoC, Boot, Data, MVC)
-* Hibernate
+* Spring Framework (Boot, Data, MVC)
 * JPA
 * H2
 * JUnit
 * Maven
 * git
+
+## Algorithms
+* Genetic algorithms
+* Particle Swarm Optimization
+* Bees algorithm
+* Ant colony optimization
+* Bat algorithm
+* Wolfs algorithm
