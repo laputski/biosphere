@@ -3,7 +3,17 @@
  */
 
 public class MainTest {
-    public static void main_lb3(String[] args) {
+    public static void main_LB3_VorobeyV(String[] args) {
+
+        int numberOfNotes[] = new int[]{
+                (int)Math.pow(10,3)
+                ,(int)Math.pow(10,5)
+                ,5*((int)Math.pow(10,5))
+        };
+
+        PerformanceComparator performanceTest = new PerformanceComparator();
+        performanceTest.fullTestPerformance(numberOfNotes);
 
     }
 }
+
