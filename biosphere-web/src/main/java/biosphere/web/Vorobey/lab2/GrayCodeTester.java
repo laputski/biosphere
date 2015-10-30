@@ -139,8 +139,6 @@ Table of corresponding
 13   1101    1011
 14   1110    1001
 15   1111    1000
-
-
 1-st row - decimal number
 2-nd row - binary number
 3-rd row - Gray code
