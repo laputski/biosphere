@@ -1,9 +1,9 @@
-package biosphere.web.davydik.lb2;
+package biosphere.web.davydik.laba2;
 
 /**
- * Created by daniildavydik on 30.10.15.
+ * Created by daniildavydik on 31.10.15.
  */
-public class ChromosomeCode implements IChromosomeCode{
+public class ChromosomeCode implements IChromosomeCode {
     public GrayCode ex1 = new GrayCode();
 
 

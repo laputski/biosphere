@@ -1,11 +1,9 @@
-package biosphere.web.davydik.lb2;
+package biosphere.web.davydik.laba2;
 
 /**
- * Created by daniildavydik on 30.10.15.
+ * Created by daniildavydik on 31.10.15.
  */
 public class GrayCode {
-
-
     public  int enCode(int N){
         return N ^ (N >> 1);
     }
@@ -16,6 +14,4 @@ public class GrayCode {
         }
         return M;
     }
-
-
 }

@@ -1,11 +1,10 @@
-package biosphere.web.davydik.lb2;
+package biosphere.web.davydik.laba2;
 import java.util.Scanner;
-
 /**
- * Created by daniildavydik on 30.10.15.
+ * Created by daniildavydik on 31.10.15.
  */
 public class GrayCodeTester {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         int P=1;
         int k;
         Scanner in=new Scanner(System.in);
@@ -68,9 +67,8 @@ public class GrayCodeTester {
         System.out.println(state);
         state = obj1.equals(obj2);
         System.out.println(state);
+
     }
-
-
     public static void fact(int N){
         if(N>0){
             int O= factorial(N);
