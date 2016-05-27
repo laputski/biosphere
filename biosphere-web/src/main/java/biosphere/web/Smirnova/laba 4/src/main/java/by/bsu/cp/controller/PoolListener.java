@@ -1,4 +1,4 @@
-package biosphere.web.filippovich.lb4.src.main.java.by.bsu.cp.controller;
+package by.bsu.cp.controller;
 
 
 import by.bsu.cp.dao.connection.TestJdbcConnector;
@@ -8,7 +8,7 @@ import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
 
 /**
- * Created by Varvara on 5/27/2016.
+ * Created by Viktoria on 5/24/2016.
  */
 @WebListener
 public class PoolListener implements ServletContextListener {

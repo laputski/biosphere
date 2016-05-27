@@ -1,4 +1,4 @@
-package biosphere.web.filippovich.lb4.src.main.java.by.bsu.cp.controller;
+package by.bsu.cp.controller;
 
 
 import by.bsu.cp.domain.Test;
@@ -17,7 +17,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
 
-@WebServlet(value = "/test/Stepanova")
+@WebServlet(value = "/test/Smirnova")
 public class TestServlet extends HttpServlet {
     private final static Logger LOGGER = LogManager.getLogger(TestServlet.class);
     private final static String PARAM_ID = "id";

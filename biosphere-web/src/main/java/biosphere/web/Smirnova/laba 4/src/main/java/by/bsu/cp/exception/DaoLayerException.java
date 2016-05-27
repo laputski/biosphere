@@ -1,7 +1,7 @@
-package biosphere.web.filippovich.lb4.src.main.java.by.bsu.cp.exception;
+package by.bsu.cp.exception;
 
 /**
- * Created by Varvara on 5/27/2016.
+ * Created by Victoria on 5/24/2016.
  */
 public class DaoLayerException extends Exception {
     public DaoLayerException(Throwable cause) {
