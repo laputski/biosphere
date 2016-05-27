@@ -1,4 +1,4 @@
-package by.bsu.cp.controller;
+package biosphere.web.Vorobey.lab4.src.main.java.by.bsu.cp.controller;
 
 
 import by.bsu.cp.domain.Test;

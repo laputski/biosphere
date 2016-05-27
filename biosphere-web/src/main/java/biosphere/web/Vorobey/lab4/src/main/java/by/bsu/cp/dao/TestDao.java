@@ -1,4 +1,4 @@
-package by.bsu.cp.dao;
+package biosphere.web.Vorobey.lab4.src.main.java.by.bsu.cp.dao;
 
 import by.bsu.cp.domain.Test;
 import by.bsu.cp.exception.DaoLayerException;

@@ -1,4 +1,4 @@
-package by.bsu.cp.exception;
+package biosphere.web.Vorobey.lab4.src.main.java.by.bsu.cp.exception;
 
 /**
  * Created by Vlad on 5/27/2016.

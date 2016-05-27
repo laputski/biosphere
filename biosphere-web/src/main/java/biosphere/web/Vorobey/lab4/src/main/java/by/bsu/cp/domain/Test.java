@@ -1,4 +1,4 @@
-package by.bsu.cp.domain;
+package biosphere.web.Vorobey.lab4.src.main.java.by.bsu.cp.domain;
 
 public class Test {
 

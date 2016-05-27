@@ -1,4 +1,4 @@
-package by.bsu.cp.service;
+package biosphere.web.Vorobey.lab4.src.main.java.by.bsu.cp.service;
 
 
 import by.bsu.cp.domain.Test;

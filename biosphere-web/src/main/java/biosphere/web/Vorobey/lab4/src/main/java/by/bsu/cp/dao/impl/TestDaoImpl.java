@@ -1,4 +1,4 @@
-package by.bsu.cp.dao.impl;
+package biosphere.web.Vorobey.lab4.src.main.java.by.bsu.cp.dao.impl;
 
 
 import by.bsu.cp.dao.TestDao;

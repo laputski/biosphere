@@ -1,4 +1,4 @@
-package by.bsu.cp.dao.connection;
+package biosphere.web.Vorobey.lab4.src.main.java.by.bsu.cp.dao.connection;
 
 import org.h2.jdbcx.JdbcConnectionPool;
 
