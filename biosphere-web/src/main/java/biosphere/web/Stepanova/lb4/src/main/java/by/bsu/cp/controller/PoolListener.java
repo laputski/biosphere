@@ -8,7 +8,7 @@ import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
 
 /**
- * Created by Oleg on 5/27/2016.
+ * Created by Varvara on 5/27/2016.
  */
 @WebListener
 public class PoolListener implements ServletContextListener {

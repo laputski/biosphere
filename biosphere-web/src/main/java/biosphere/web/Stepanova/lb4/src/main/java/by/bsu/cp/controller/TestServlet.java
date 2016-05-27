@@ -17,7 +17,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
 
-@WebServlet(value = "/test/Voropaev")
+@WebServlet(value = "/test/Stepanova")
 public class TestServlet extends HttpServlet {
     private final static Logger LOGGER = LogManager.getLogger(TestServlet.class);
     private final static String PARAM_ID = "id";
