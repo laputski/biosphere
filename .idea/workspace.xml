@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ceeb6b3-b6d1-4cb9-86f6-219b01b22741" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="0ceeb6b3-b6d1-4cb9-86f6-219b01b22741" name="Default" comment="" />
     <ignored path="biosphere.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/biosphere-memory/target/" />
@@ -93,8 +91,8 @@
       <file leaf-file-name="MANIFEST.MF" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/biosphere-web/src/main/java/biosphere/web/tomasheva/Лабораторная работа 4/out/artifacts/Lab4_war_exploded/META-INF/MANIFEST.MF">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.038904898">
-              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.1945245">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1149,12 +1147,12 @@
       <workItem from="1464321405952" duration="365000" />
       <workItem from="1464374907599" duration="523000" />
       <workItem from="1464375505121" duration="2022000" />
-      <workItem from="1464377555361" duration="4350000" />
+      <workItem from="1464377555361" duration="4511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22757000" />
+    <option name="totallyTimeSpent" value="22918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="0" width="1618" height="852" extended-state="1" />
@@ -1635,8 +1633,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/biosphere-web/src/main/java/biosphere/web/tomasheva/Лабораторная работа 4/out/artifacts/Lab4_war_exploded/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.038904898">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.1945245">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
